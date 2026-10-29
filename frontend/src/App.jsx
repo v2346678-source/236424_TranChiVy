@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Search, Plus, Trash2, Edit, RefreshCw } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/foods";
+const API_URL = "https://two36424-backend.onrender.com/api/foods";
 
 function App() {
   const [foods, setFoods] = useState([]);
